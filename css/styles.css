@@ -45,6 +45,7 @@ ul {
 
 .contacts{
     text-decoration: none;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -53,8 +54,14 @@ ul {
 }
 
 .contacts:hover, 
-.contacts:active{
+.contacts:focus,
+.navigation-link:hover,
+.navigation-link:focus{
     color: #2196F3;
+}
+
+.location{
+    font-style: normal;
 }
 
 .main-title{
@@ -74,7 +81,7 @@ ul {
     height: 50px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -144,11 +151,11 @@ ul {
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
-    border-radius: 4px;
+    border: none;
 }
 
 .button:hover,
-.button:active{
+.button:focus{
     color: #FFFFFF;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
