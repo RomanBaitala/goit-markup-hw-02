@@ -65,35 +65,6 @@ ul {
     background-color: #FFFFFF;
 }
 
-/* footer */
-
-.footer-company-logo1 {
-    color: #2196F3;
-}
-
-.footer-company-logo2 {
-    color: white;
-}
-
-.footer-company-logo1,
-.footer-company-logo2 {
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-
-.location{
-    font-style: normal;
-    color: white;
-}
-
-.footer{
-    background-color: #2F303A;
-}
-
 /* main section */
 
 .main-title{
@@ -218,4 +189,33 @@ ul {
     line-height: 1.87;
     letter-spacing: 0.03em;    
     color: #757575;
+}
+
+/* footer */
+
+.footer-company-logo1 {
+    color: #2196F3;
+}
+
+.footer-company-logo2 {
+    color: white;
+}
+
+.footer-company-logo1,
+.footer-company-logo2 {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.location {
+    font-style: normal;
+    color: white;
+}
+
+.footer {
+    background-color: #2F303A;
 }
