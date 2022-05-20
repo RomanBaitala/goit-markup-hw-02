@@ -44,7 +44,7 @@ ul {
 
 /*contacts*/
 
-.contacts{
+.header-contacts{
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -54,8 +54,8 @@ ul {
     color: #757575;
 }
 
-.contacts:hover, 
-.contacts:focus,
+.header-contacts:hover, 
+.header-contacts:focus,
 .navigation-link:hover,
 .navigation-link:focus{
     color: #2196F3;
@@ -119,8 +119,8 @@ ul {
 
 /* titles team & our-work */
 
-.team,
-.our-work{
+.title-team,
+.work-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -211,6 +211,21 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+
+.footer-contacts{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: #2196F3;
 }
 
 .location {
