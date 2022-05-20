@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-
+    color: #212121;
 }
 
 /* font-family: 'Montserrat', sans-serif; 
@@ -10,23 +10,24 @@ ul {
     list-style: none;
 }
 
+/* header*/
 /*Company logo*/
 
-.company-logo1 {
+.header-company-logo1 {
     color: #2196F3;
 }
 
-.company-logo2 {
+.header-company-logo2 {
     color: black;
 }
 
-.company-logo1,
-.company-logo2 {
+.header-company-logo1,
+.header-company-logo2 {
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -37,7 +38,7 @@ ul {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -48,7 +49,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -60,34 +61,70 @@ ul {
     color: #2196F3;
 }
 
+.header {
+    background-color: #FFFFFF;
+}
+
+/* footer */
+
+.footer-company-logo1 {
+    color: #2196F3;
+}
+
+.footer-company-logo2 {
+    color: white;
+}
+
+.footer-company-logo1,
+.footer-company-logo2 {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
 .location{
     font-style: normal;
+    color: white;
 }
+
+.footer{
+    background-color: #2F303A;
+}
+
+/* main section */
 
 .main-title{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
+    color: white;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase
 }
 
+.main-title-section{
+    background-color: #2F303A;
+}
+
  /* Button */
 
-.main-button{   
+.main-button{  
     width: 200px;
     height: 50px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #2196F3;;
     border: none;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;    
     color: #FFFFFF;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 /* specialisation of company */
@@ -95,16 +132,15 @@ ul {
 .specialisation-title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;    
-    color: #212121;
+    text-transform: uppercase; 
 }
 
 .specialisation-text{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -115,25 +151,29 @@ ul {
 .our-work{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;    
-    color: #212121;
 }
+
+.team{
+    background-color: #F5F4FA;
+}
+
+/* our team  */
 
 .person-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 
 .person-position{
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;    
     color: #757575;
@@ -145,13 +185,12 @@ ul {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;    
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    line-height: 1.63;    
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
     border: none;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -168,7 +207,7 @@ ul {
 .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;    
+    line-height: 2;    
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -176,7 +215,7 @@ ul {
 .project-decription{
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;    
     color: #757575;
 }
